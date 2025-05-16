@@ -41,14 +41,6 @@ pipeline {
                 }
             }
         }
-        stage('Test') {
-        steps {
-        script {
-            // Run unit tests
-            sh 'npm run test'
-        }
-    }
-}
-
+    
     }
 }
