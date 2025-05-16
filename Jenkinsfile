@@ -5,8 +5,8 @@ pipeline {
         IMAGE_NAME = "vasanth4747/education-animation"
         TAG = "v1"
         DOCKER_USERNAME = "vasanth4747"
-        DOCKER_PASSWORD = credentials('dockerhub-pass')  // Secure Jenkins credential
-        KUBECONFIG = "/home/vasanth47/.kube/config"
+        DOCKER_PASSWORD = "vasanth@47"  // Not secure - avoid using in production
+        KUBECONFIG = "/home/vasanth47/.kube/config"  // Set the correct kubeconfig path
     }
 
     stages {
