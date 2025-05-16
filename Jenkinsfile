@@ -12,7 +12,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git branch: 'main', url: 'https://github.com/vasanthvk47/education-anie.git'
+                git branch: 'main', url: 'https://github.com/vasanthvk47/krish-dev.git'
             }
         }
 
